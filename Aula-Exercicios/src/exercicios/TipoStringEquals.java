@@ -1,0 +1,24 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class TipoStringEquals {
+
+	public static void main(String[] args) {
+		
+		System.out.println("2" == "2");
+		String s1 = new String("s");
+		System.out.println("s".equals(s1));
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String s2 = entrada.nextLine();
+		
+		System.out.println("2" == s2.trim());
+		System.out.println("2".equals(s2.trim()));
+		
+		entrada.close();
+		
+	}
+	
+}
