@@ -28,7 +28,12 @@ public class Usuario {
         return true;
     }
 
-//    @Override
+    @Override
+    public int hashCode() {
+        return this.nome.length();
+    }
+
+    //    @Override
 //    public int hashCode() {
 //        final int prime = 31;
 //        int result = 1;
