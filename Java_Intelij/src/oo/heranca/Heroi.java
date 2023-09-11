@@ -2,12 +2,13 @@ package oo.heranca;
 
 public class Heroi extends Jogador {
 
-    Heroi(int x, int y) {
+    public Heroi(int x, int y) {
         super(x, y); // caso coloque chame o super ele se refere ao construtor da classe pai, e caso tenha mais de um construtor devemos ter as mesmas parametros dos outros contrutores
     }
 
     // sobreescrevendo o metodo
-    boolean atacar(Jogador oponente) {
+    @Override
+    public boolean atacar(Jogador oponente) {
 
         // sobrescrevendo o metodo da classe pai
 //        int deltaX = Math.abs(x - oponente.x);

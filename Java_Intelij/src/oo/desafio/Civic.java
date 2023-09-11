@@ -2,11 +2,11 @@ package oo.desafio;
 
 public class Civic extends Carro {
 
-    Civic() {
+    public Civic() {
         this(240);
     }
 
-    Civic(int velocidadeMaxima) {
+    public Civic(int velocidadeMaxima) {
         super(velocidadeMaxima);
     }
 

@@ -11,11 +11,11 @@ public class Monstro extends Jogador {
     //    instanciada mas todos os construtores e toda a hierarquia é chamada, de tal forma que uma que sempre uma classe chama
     //    chama o super para a outra classe seja da forma implicita ou seja de forma explicita
 
-    Monstro() { // aqui não precisamos colocar nenhum parametro pois ele já esta pegando o valor x e y da classe pai
+    public Monstro() { // aqui não precisamos colocar nenhum parametro pois ele já esta pegando o valor x e y da classe pai
         this(0, 0); // aqui estamos colocando valores no construtor da classe pai
     }
 
-    Monstro(int x, int y) {
+    public Monstro(int x, int y) {
         super(x, y); // ali em cima podemos colocar o this(), pois o this ali está chamando esse construtor e esse super está chamando o construtor da classe pai
     }
 
