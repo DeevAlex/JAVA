@@ -1,4 +1,4 @@
-package oo.desafio;
+package oo.heranca.desafio;
 
 public class Civic extends Carro {
 

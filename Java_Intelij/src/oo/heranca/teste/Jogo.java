@@ -1,4 +1,4 @@
-package oo.teste;
+package oo.heranca.teste;
 
 import oo.heranca.Direcao;
 import oo.heranca.Heroi;
