@@ -5,8 +5,7 @@ package oo.heranca.desafio;
 public interface Esportivo {
 
     // podemos usar interfaces para servir para você definir que algo tem aquele metodo, mas você ainda não tem ainda como implementar
-    void ligarTurbo();
+    public abstract void ligarTurbo(); // todos os metodos na interface são public (não pode reduzir a visibilidade) e ele é abstract (é metodo que não tem corpo)
     void desligarTurbo();
-
 
 }

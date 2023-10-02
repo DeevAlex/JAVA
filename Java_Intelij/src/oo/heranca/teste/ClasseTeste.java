@@ -20,6 +20,11 @@ public class ClasseTeste {
         Ferrari ferrari = new Ferrari(400);
 
         ferrari.ligarTurbo();
+        ferrari.ligarAr();
+        ferrari.desligarAr();
+
+        System.out.println(ferrari.velocidadeDoAr());
+
         ferrari.Acelerar();
         ferrari.Frear();
         System.out.println("Velocidade Atual da Ferrari: " + ferrari.getVelocidadeAtual() + "Km/h");
