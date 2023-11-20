@@ -36,7 +36,7 @@ public class Pilha {
         // pilhaLivros.isEmpty(); verifica se a fila está vazia
         // pilhaLivros.contains(...); verifica se a fila contém algo que está no parametro
 
-        // pode ser usado o foreach
+        // pode ser usado o Foreach
         for(String livros : pilhaLivros) {
             System.out.println(livros);
         }

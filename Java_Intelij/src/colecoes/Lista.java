@@ -25,7 +25,7 @@ public class Lista {
         lista.contains(3); // verifica com o indice, e retorna um boolean
         lista.contains(new Usuario("Lia")); // verifica com o objeto, e retorna um boolean
 
-        // pode ser usado o foreach
+        // pode ser usado o Foreach
         for(Usuario u : lista) {
             System.out.println(u.toString() + " " + lista.indexOf(u));
         }

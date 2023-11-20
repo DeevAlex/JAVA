@@ -37,7 +37,7 @@ public class Fila {
         // fila.isEmpty(); verifica se a fila está vazia
         // fila.contains(...); verifica se a fila contém algo que está no parametro
 
-        // pode ser usado o foreach
+        // pode ser usado o Foreach
         for(String pessoas : fila) {
             System.out.println(pessoas);
         }

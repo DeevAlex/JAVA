@@ -9,7 +9,7 @@ public class Foreach {
 			System.out.println("For 1: " + notas[i]);
 		}
 		
-		for(double nota: notas) { // foreach
+		for(double nota: notas) { // Foreach
 			System.out.println("For 2: " + nota);
 		}
 		
