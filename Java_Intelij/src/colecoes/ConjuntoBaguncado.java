@@ -13,20 +13,20 @@ public class ConjuntoBaguncado {
 		
 		conjunto.add(1.2); // ele vai converter double -> Double
 		conjunto.add(true); // ele vai converter boolean -> Boolean
-		conjunto.add("Teste"); // aqui não vai
+		conjunto.add("streams.Teste"); // aqui não vai
 		conjunto.add(1); // ele vai converter int -> Interger
 		conjunto.add('x');// ele vai converter char -> Character
 		
 		System.out.println("tamanho do conjunto: " + conjunto.size());
 		
 		// aqui ele adiciona pois o t é minusculo e outro é maiusculo
-		conjunto.add("Teste");
+		conjunto.add("streams.Teste");
 		conjunto.add('x');
 		
 		System.out.println("tamanho do conjunto: " + conjunto.size());
 		
 		System.out.println(conjunto.remove("teste")); // false pois não tem o teste com a letra t minuscula
-		System.out.println(conjunto.remove("Teste")); // aqui vai ser true pois tem letra T maiuscula
+		System.out.println(conjunto.remove("streams.Teste")); // aqui vai ser true pois tem letra T maiuscula
 		System.out.println(conjunto.remove('x')); // aqui vai ser true pois tem letra X maiuscula
 		
 		System.out.println("tamanho do conjunto: " + conjunto.size());

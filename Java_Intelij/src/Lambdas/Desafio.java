@@ -1,5 +1,6 @@
 package Lambdas;
 
+import java.util.Arrays;
 import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
@@ -33,6 +34,17 @@ public class Desafio {
         Function<Double, String> formatar = preco -> ("R$" + preco).replace(".", ",");
 
         System.out.println("O preço final é " + precoFinal.andThen(impostoMunicipal).andThen(frete).andThen(arredondar).andThen(formatar).apply(p));
+
+        String saldo = "1000.0";
+
+        String[] saldoQuebrado = saldo.split("", 6);
+        
+        for (int i = 0; i < saldo.length(); i++) {
+
+            String s = saldoQuebrado[i].equalsIgnoreCase(".") ? saldoQuebrado[i].replace(".", ",") : "Não";
+        }
+
+        System.out.println(Arrays.toString(saldo.split("", 6)));
 
     }
 
