@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+}
+
+.btnEnviar {
+
+    margin: 10px 0px;
+
+}
